@@ -1,0 +1,55 @@
+<!-- TODO 1: Create the HTML Boilerplate -->
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            .container {
+                overflow: auto;
+            }
+            .column1 {
+                float: left;
+                width: 50%;
+            }
+            .column2 {
+                float: right;
+                width: 50%;
+            }
+            .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        </style>
+                
+        <title>Ashleigh Rapp's Portfolio</title>
+    </head>
+
+    <body>
+        <h1>Hi, I'm Ashleigh Rapp.</h1>
+        <h2>I'm a Web Developer and welcome to my dev-folio!</h2>
+        <hr>
+        
+        <div class="container">
+            <div class="column1">
+                
+                <p>
+                <a href="./public/movie-ranking.html"><h3>Movie Ranking Project</h3></a>
+                <img src="./assets/images/my_movie_ranking.png" width="300">
+                </p></div>
+            <div class="column2">
+               
+                <p>
+                <a href="./public/birthday-invite.html"><h3>Birthday Invite Project</h3></a>
+                <img src="./assets/images/my_birthday_invite.png" width="300">
+                </p></div>
+               
+        </div>
+        <div class="clearfix"></div>
+        <hr>
+        
+        <a href="./public/about.html">About Me</a>  
+        <a href="./public/contact.html">Contact Me</a>
+        
+    </body>
+</html>
